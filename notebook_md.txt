@@ -1,0 +1,44 @@
+# ISEL - CPS 
+## Semestre 2024/25
+# <br>
+###  <center> Trabalho Prático 2 - Ambientes Imersivos – Simulação do campo sonoro – Audição Binaural  </center>
+###  <center> 12 de Janeiro de 2025</center>
+
+# </br>
+
+
+Trabalho realizado por:
+* Martim Ramos, numero <b> 51736 </b>
+* Guilherme Graça, numero <b> 51827 </b>
+* Rodrigo Monteiro, numero <b> 51829 </b>
+
+<b> Turma 32D - Joel Paulo </b>
+
+---
+
+# <center> Questão 1 -  Sinal sonoro em um ponto (audição monaural) no plano horizontal, com sala <center>
+
+##### Utilizando o modelo apresentado na figura, sintetize o sinal sonoro na saída, (guarde em ficheiro WAVE), para as seguintes situações: 
+##### a. Campo direto.
+##### b. Primeiras reflexões (ordem 1).
+##### c. Campo Reverberante para os seguintes valores de RT60: 0s, 0.5s, 2s e 10s. 
+##### d. Campo total = Campo direto + Primeiras reflexões + Campo Reverberante Nota: RT60 = 0s, indica que estamos em espaço livre (câmara anecoica), não existe reverberação. 
+
+---
+
+![Imagem](Imagem_auxiliar/Representação_dos_biombos_e_das_fontes_sonoros_em_torno_do_ouvinte_na_sala.jpg)
+
+
+---
+
+# <center> Questão 2 – Sinal sonoro nos ouvidos do ouvinte (audição binaural) no plano horizontal, com sala  <center>
+
+##### Utilizando sinais de áudio, queremos simular o ouvinte no interior da orquestra, com os instrumentos musicais à sua volta.
+##### Apresente o sinal binaural utilizando as funções HRTF (guarde em ficheiro WAVE) para as seguintes situações: 
+##### a. Resolva a alínea anterior com coeficiente de absorção sonora, alfa, igual a 0, 0.5, 0.8 e 1. 
+##### b. Resolva a alínea anterior com Campo Reverberante para os seguintes valores de RT60: 0s, 0.5s, 2s e 10s.  
+
+
+---
+
+# <center> Questão 3 - Reprodução de som em sistema multicanal de altifalantes utilizando a abordagem Vector Based Amplitude Panning (VBAP), no plano horizontal, com sala<center>
