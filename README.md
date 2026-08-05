@@ -67,7 +67,10 @@ The image above illustrates the mathematical and spatial configuration used to c
 * **The Listener (O)**: The central point at coordinate `(4,3)` represents the listener's head. 
 * **The Sound Sources (S0 - S7)**: Eight virtual speakers are placed in a perfect circle around the listener at a distance of `2m`, spaced every `45°`.
 
-The Python simulation calculates the exact acoustic path—including direct sound propagation delays and acoustic reflections on the walls—from each of these 8 sound sources to the listener. Finally, it applies Head-Related Transfer Functions (HRTF) to create a highly realistic 3D binaural effect.
+The Python simulation calculates the exact acoustic path—including direct sound propagation delays and acoustic reflections on the walls—from each of these 8 sound sources to the listener. To make this simulation realistic, we rely on two major acoustic concepts:
+
+* **HRTF (Head-Related Transfer Function)**: A mathematical filter that mimics how sound waves interact with human anatomy (head, shoulders, and outer ears) before reaching the eardrums. By applying HRTFs to audio signals, we trick the brain into pinpointing exactly where a sound is coming from in 3D space, creating a surround sound illusion using only standard stereo headphones.
+* **VBAP (Vector Based Amplitude Panning)**: A technique used to position a virtual sound (like an instrument) anywhere in space by intelligently distributing its volume across multiple physical speakers. It calculates the exact amplitude (gain) that each speaker needs to play so that the listener perceives the sound coming from a specific direction.
 
 ### 🔊 Audio Results
 
