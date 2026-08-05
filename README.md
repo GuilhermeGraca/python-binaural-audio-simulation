@@ -56,7 +56,7 @@
   </p>
 </div>
 
-This repository contains **Binaural Audio Simulation**, an academic project developed from scratch for the *Comunicação de Sinais Multimedia* course at **ISEL (Instituto Superior de Engenharia de Lisboa)** in 2025. 
+This repository contains **Binaural Audio Simulation**, an academic project developed from scratch for the *Comunicação de Sinais Multimedia* (currently known as *Processamento de Sinais Multimedia - PSM*) course at **ISEL (Instituto Superior de Engenharia de Lisboa)** in 2024. 
 
 The primary goal of this project is to simulate and synthesize audio fields within a horizontal room plane, exploring monaural propagation, binaural audition via HRTF, and multichannel sound reproduction using VBAP.
 
@@ -195,7 +195,7 @@ Guilherme Graça - [LinkedIn](https://www.linkedin.com/in/guilhermegraca) - [Git
 ## Acknowledgments
 
 * **ISEL (Instituto Superior de Engenharia de Lisboa)** for providing the academic environment and resources.
-* **Professor Joel Paulo** for the guidance throughout the *Comunicação de Sinais Multimedia* course.
+* **Professor Joel Paulo** for the guidance throughout the *Comunicação de Sinais Multimedia* (now *PSM*) course.
 * **Martim Ramos** and **Rodrigo Monteiro** for the collaboration on this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
